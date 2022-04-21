@@ -1,0 +1,162 @@
+.index-h1 {
+  text-align: center;
+  font-size: 2.6rem;
+}
+
+.evil-letters {
+  font-family: "Special Elite", cursive;
+  font-size: 1.15em;
+  line-height: 1.15em;
+  color: var(--orange-colors);
+}
+
+.principal {
+  position: relative;
+}
+
+.index-img {
+  border-radius: 1rem;
+  margin: 2rem 0px;
+}
+
+.index-video {
+  cursor: pointer;
+  position: absolute;
+  top: 3.5rem;
+  left: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.index-video p {
+  margin: 0px;
+  color: white;
+  font-family: var(--spartan);
+  font-weight: 400;
+}
+
+.video-icon {
+  background-image: url(./images/circle-play-solid.svg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.index-container {
+  margin-top: 2rem;
+}
+
+.index-section {
+  padding-left: 0;
+  padding-top: 0;
+  font-family: var(--merryweader);
+}
+
+.index-section p:first-child {
+  margin-top: 0;
+}
+
+.index-paragraph-cite {
+  font-style: italic;
+  padding: 1.8em;
+  border-left: 2px solid var(--orange-colors);
+}
+
+.index-container aside {
+  margin-top: 0;
+}
+
+aside > * {
+  padding: 0;
+}
+
+.unicef-logos-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex: 1 1 40%;
+}
+
+.unicef-logos-container div:first-of-type {
+  flex: 2 2 49%;
+  margin-right: 0.5rem;
+}
+
+.unicef-logos-container div:last-of-type {
+  flex: 1 1 40%;
+}
+
+.unicef-logos-container div img {
+  width: 100%;
+}
+
+@media (max-width: 60rem) {
+  .index-img {
+    margin: 0px;
+  }
+
+  .index-video {
+    top: 2.5rem;
+    left: 2.5rem;
+  }
+
+  .index-section {
+    padding-left: var(--padding-basic);
+    padding-bottom: 0;
+  }
+  .principal {
+    padding: var(--padding-basic) var(--padding-basic) 0px var(--padding-basic);
+  }
+
+  .unicef-logos-container {
+    flex-direction: column;
+  }
+
+  .unicef-logos-container div:first-of-type {
+    margin-right: 0;
+  }
+
+  .unicef-logos-container div:last-of-type {
+    order: -1;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 30rem) {
+  .unicef-logos-container {
+    flex-direction: row;
+  }
+
+  .unicef-logos-container div:first-of-type {
+    margin-right: 0.5rem;
+  }
+
+  .unicef-logos-container div:last-of-type {
+    order: 1;
+    margin-bottom: 0;
+  }
+}
+
+/* collaborators block */
+
+.collaborators {
+  width: 100%;
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 800px;
+  flex-wrap: wrap;
+}
+
+.collaborators div {
+  margin: 0.6rem;
+  margin-right: 1.5rem;
+}
+
+.collaborators-title {
+  margin-top: 2rem;
+  font-weight: 500;
+  font-size: 2em;
+}

@@ -1,0 +1,267 @@
+{
+  "en": [{}, {}],
+  "es": [
+    {
+      "id": "0",
+      "img_src": "../images/present/como-evitar-el-ciberbullying.jpg",
+      "img_alt": "Cómo evitar el ciberbullying",
+      "date": "21 de marzo, 2022",
+      "title": "Cómo evitar el ciberbullying",
+      "resume": "No es fácil cuando nos paramos a pensar cómo evitar el ciberbullying, pero hay técnicas…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "1",
+      "img_src": "https://indiehoy.com/wp-content/uploads/2021/11/arcane.jpg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum dolor sit amet",
+      "resume": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem doloremque dolores culpa officiis praesentium, veniam mollitia minima velit quidem sit…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "2",
+      "img_src": "https://mexicorutamagica.mx/wp-content/uploads/2021/11/peliculas-de-viajeros-en-netxflix.jpg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum",
+      "resume": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptates exercitationem quisquam labore provident. Officia…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "3",
+      "img_src": "https://cdn.britannica.com/49/182849-050-4C7FE34F/scene-Iron-Man.jpg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum dolor sit amet",
+      "resume": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem doloremque dolores culpa officiis praesentium, veniam mollitia minima velit quidem sit…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "4",
+      "img_src": "https://imagenes.20minutos.es/files/image_656_370/uploads/imagenes/2018/08/06/744344.jpg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+      "resume": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatem modi, nihil neque facere eos aspernatur omnis itaque aut at quam ipsa…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "5",
+      "img_src": "https://elcomercio.pe/resizer/H63ZcMAWGlWxS0WPIf2NPq0IUPY=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/AD56HTUX4ZDOPLWVPA3O5MTTDA.jpg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elitllum",
+      "resume": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eligendi alias excepturi error amet. Voluptatem, cum…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "6",
+      "img_src": "https://thecouch.world/wp-content/uploads/2018/05/han-solo.jpg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum dolor sit",
+      "resume": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptatem magnam praesentium voluptas laboriosam enim veniam, sunt officiis repellat pariatur ratione, ducimus amet similique ea fugit quis explicabo aut quam…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "7",
+      "img_src": "https://i.blogs.es/3e94ca/conan/1366_2000.jpeg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum",
+      "resume": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptatem magnam praesentium voluptas laboriosam enim veniam, sunt officiis repellat pariatur ratione, ducimus amet similique ea fugit quis explicabo aut quam…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "8",
+      "img_src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxs0UcUqb9DqvHL8X964MuEuhfTfsfs6ulZnRA2GCYWUMJCkEtSXz5r7wbAI6q9PvidY&usqp=CAU",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum dolor sit amet",
+      "resume": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem doloremque dolores culpa officiis praesentium, veniam mollitia minima velit quidem sit…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "9",
+      "img_src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRBJk4dEbMHgZ1PrZQfuNWSTafCf9wDgEKq-Xf5YOaq8bXdvOrTdwHcChy5fg9BZrp4Io&usqp=CAU",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum",
+      "resume": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptates exercitationem quisquam labore provident. Officia…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "10",
+      "img_src": "https://i0.wp.com/hipertextual.com/wp-content/uploads/2021/03/the-witcher-scaled.jpg?fit=2560%2C1527&ssl=1",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum dolor sit amet",
+      "resume": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem doloremque dolores culpa officiis praesentium, veniam mollitia minima velit quidem sit…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "11",
+      "img_src": "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2021/07/21/tom-holland-como-spider-man.jpeg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+      "resume": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatem modi, nihil neque facere eos aspernatur omnis itaque aut at quam ipsa…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "12",
+      "img_src": "https://peru21.pe/resizer/B3ukwHWIodmiYMSy-3_Kp4rOy7g=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/RHVVDKBB7RHJFISXNSRXVBLVDE.jpg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elitllum",
+      "resume": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eligendi alias excepturi error amet. Voluptatem, cum…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "13",
+      "img_src": "https://www.gamecored.com/wp-content/uploads/2020/01/gollum-1.jpg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum dolor sit",
+      "resume": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptatem magnam praesentium voluptas laboriosam enim veniam, sunt officiis repellat pariatur ratione, ducimus amet similique ea fugit quis explicabo aut quam…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "14",
+      "img_src": "https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/cinefilia/adios-a-the-muppets-la-comedia-que-no-consiguio-despegar/98890367-1-esl-ES/Adios-a-The-Muppets-la-comedia-que-no-consiguio-despegar.jpg?crop=1xw:0.8258064516129032xh;center,top&resize=1200:*",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum",
+      "resume": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptatem magnam praesentium voluptas laboriosam enim veniam, sunt officiis repellat pariatur ratione, ducimus amet similique ea fugit quis explicabo aut quam…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "15",
+      "img_src": "https://i.emezeta.com/weblog/muppets-viejos.jpg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum dolor sit amet",
+      "resume": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem doloremque dolores culpa officiis praesentium, veniam mollitia minima velit quidem sit…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "16",
+      "img_src": "https://bleedingcool.com/wp-content/uploads/2019/07/akira-1200x900.jpg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum",
+      "resume": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptates exercitationem quisquam labore provident. Officia…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "17",
+      "img_src": "https://i.blogs.es/f40115/aa34b614-ecb2-48c8-9bdb-a529bf201726/840_560.jpeg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum dolor sit amet",
+      "resume": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem doloremque dolores culpa officiis praesentium, veniam mollitia minima velit quidem sit…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "18",
+      "img_src": "https://www.zonanegativa.com/imagenes/2020/01/DragonQuest.jpg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+      "resume": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatem modi, nihil neque facere eos aspernatur omnis itaque aut at quam ipsa…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "19",
+      "img_src": "https://p4.wallpaperbetter.com/wallpaper/140/630/502/tv-show-true-blood-alexander-skarsg%C3%A5rd-eric-northman-wallpaper-preview.jpg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elitllum",
+      "resume": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eligendi alias excepturi error amet. Voluptatem, cum…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "20",
+      "img_src": "https://arthive.net/res/media/img/oy1800/work/14b/26168@2x.jpg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum dolor sit",
+      "resume": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptatem magnam praesentium voluptas laboriosam enim veniam, sunt officiis repellat pariatur ratione, ducimus amet similique ea fugit quis explicabo aut quam…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "21",
+      "img_src": "https://media-cdn.tripadvisor.com/media/photo-s/1a/7b/65/a3/le-chat-noir-downtown.jpg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum",
+      "resume": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptatem magnam praesentium voluptas laboriosam enim veniam, sunt officiis repellat pariatur ratione, ducimus amet similique ea fugit quis explicabo aut quam…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "22",
+      "img_src": "https://pasionporelcine.net/wp-content/uploads/2020/02/Porco-rosso-pel%C3%ADcula-cr%C3%ADtica-y-explicaci%C3%B3n-1-scaled.jpg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum dolor sit amet",
+      "resume": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem doloremque dolores culpa officiis praesentium, veniam mollitia minima velit quidem sit…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "23",
+      "img_src": "https://www.thoughtco.com/thmb/FdSpcN5GFjGnUyELwu4HGhassYM=/3043x2029/filters:fill(auto,1)/NsFQ2ZR-90587ae1d6a64dbe91d49c835f2ab1d8.jpg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum",
+      "resume": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptates exercitationem quisquam labore provident. Officia…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "24",
+      "img_src": "https://vitralizado.com/wp-content/uploads/2015/04/MoMa2.jpg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum dolor sit amet",
+      "resume": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem doloremque dolores culpa officiis praesentium, veniam mollitia minima velit quidem sit…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "25",
+      "img_src": "https://programapapagayo.files.wordpress.com/2012/03/moebiustranseforme-24.jpg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+      "resume": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatem modi, nihil neque facere eos aspernatur omnis itaque aut at quam ipsa…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "26",
+      "img_src": "https://www.laslibreriasrecomiendan.com/wp-content/uploads/2019/02/alita-angel-de-combate-pw.jpg",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elitllum",
+      "resume": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eligendi alias excepturi error amet. Voluptatem, cum…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "27",
+      "img_src": "https://pbs.twimg.com/media/EBo7OhaXUAANOkZ?format=jpg&name=large",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum dolor sit",
+      "resume": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptatem magnam praesentium voluptas laboriosam enim veniam, sunt officiis repellat pariatur ratione, ducimus amet similique ea fugit quis explicabo aut quam…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    },
+    {
+      "id": "28",
+      "img_src": "https://preview.redd.it/9fs9imhuneb31.jpg?auto=webp&s=04df66c9335125f8ee2222ce28ddeda2e14dc322",
+      "img_alt": "Lorem ipsum, dolor sit amet",
+      "date": "08 de abril, 2022",
+      "title": "Lorem ipsum",
+      "resume": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptatem magnam praesentium voluptas laboriosam enim veniam, sunt officiis repellat pariatur ratione, ducimus amet similique ea fugit quis explicabo aut quam…",
+      "link": "../blog-news/como-evitar-el-ciberbullying.html"
+    }
+  ],
+  "ca": [{}, {}]
+}

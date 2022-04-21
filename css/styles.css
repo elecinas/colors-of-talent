@@ -1,0 +1,872 @@
+:root {
+  --padding-basic: 1.8rem;
+  --border-colors: 0px solid #c665db;
+  --spartan: "Spartan", Helvetica, Arial, sans-serif;
+  --merryweader: "Merriweather", "Times New Roman", Times, serif;
+  --pink-colors: rgb(219, 145, 212);
+  --orange-colors: rgb(255, 86, 11);
+  --green-colors: rgb(8, 213, 142);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+nav {
+  font-family: var(--spartan);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #c665db;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.btn {
+  background-color: #c665db;
+  color: white;
+  font-family: var(--spartan);
+  border: none;
+}
+
+.btn:hover {
+  background-color: var(--orange-colors);
+  border: none;
+}
+
+.orange-button {
+  background-color: var(--orange-colors);
+}
+
+body {
+  padding-top: 5rem;
+  background: rgb(255, 255, 255);
+  font-family: var(--merryweader);
+  font-weight: 300;
+  font-size: 16.5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1.2em;
+  font-family: var(--spartan);
+  letter-spacing: -0.05em;
+  font-weight: 400;
+  line-height: 1.3em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+p {
+  margin-top: 1.2em;
+}
+
+h1 {
+  font-size: 2.1em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.9em;
+}
+
+h4 {
+  font-size: 1.8em;
+}
+
+h5 {
+  font-size: 1.7em;
+}
+
+h6 {
+  font-size: 1.6em;
+}
+
+.title-paragraph {
+  max-width: 39rem;
+}
+
+header,
+footer {
+  background-color: white;
+  font-family: var(--spartan);
+  font-weight: 400;
+  color: black;
+  z-index: 1000;
+}
+
+/* HEADER */
+
+header {
+  padding: 0.5rem;
+  border-bottom: var(--border-colors);
+  background-color: white;
+  position: fixed;
+  width: 100vw;
+  top: 0px;
+}
+
+/* NAVBAR */
+
+nav div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a,
+nav div ul,
+nav div ul li {
+  display: inline;
+}
+
+nav a,
+nav div ul li {
+  padding-right: 1.2rem;
+}
+
+.navbar {
+  padding-left: 1.8rem;
+}
+
+nav div ul li {
+  font-weight: 500;
+  letter-spacing: 0.01rem;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.nav-link:hover {
+  color: var(--orange-colors) !important;
+}
+
+.nav-link-active {
+  color: #c665db !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: none;
+  border: 0px solid white;
+}
+
+.navbar-toggler-icon {
+  background-image: url(images/hamburger.svg) !important;
+}
+
+.navbar-collapse {
+  margin-top: 2rem;
+  text-align: right;
+}
+
+/* MAIN */
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+section {
+  background-color: white;
+  padding: var(--padding-basic);
+  width: 70%;
+}
+
+.parrafo {
+  /* entre 60 y 70 caracteres de largo */
+  max-width: 60ch;
+  line-height: 1.6em;
+}
+
+.img-article {
+  width: 100%;
+  margin-top: 1.6rem;
+  border-radius: 1rem;
+}
+
+.pie-foto {
+  font-size: 12px;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* ASIDE */
+
+aside {
+  background-color: white;
+  width: 30%;
+  font-family: var(--spartan);
+  font-weight: 400;
+  font-size: 0.7rem;
+  margin-top: 2rem;
+}
+
+aside > * {
+  padding: 2rem 0px;
+  /*
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  */
+  margin-bottom: 1rem;
+}
+
+aside article {
+  padding: var(--padding-basic);
+}
+
+.twitter-container {
+  padding: 0.9rem;
+}
+
+.aside-newsletter {
+  background-color: rgb(230, 230, 230);
+  border-radius: 0.5rem;
+}
+
+.aside-newsletter h6 {
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+}
+
+#newsletter-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#newsletter-form > * {
+  margin-bottom: 1rem;
+}
+
+#newsletter-form label:first-of-type {
+  margin-bottom: 0px;
+}
+
+#newsletter-form .email-input {
+  height: 2rem;
+  padding-left: 0.5rem;
+}
+
+#newsletter-form input:last-of-type {
+  margin-bottom: 0;
+}
+
+.remail-input {
+  padding-left: 0.5rem;
+  height: 38px;
+}
+
+aside article p {
+  margin-top: 0.2rem;
+  font-size: 14px;
+  line-height: 1.25rem;
+  max-width: 60ch;
+}
+
+aside article h6 {
+  font-size: 21px;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.checkbox-container input {
+  margin-right: 0.5rem;
+}
+
+.suscription-success {
+  height: 100%;
+  display: none; /* when suscription done display:flex; */
+  align-items: center;
+}
+
+.suscription-success p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.04rem;
+  font-weight: 500;
+}
+
+.twitter-container {
+  border: 1.5px solid rgba(0, 172, 238, 0.45); /* oficial color twitter #00acee */
+  border-radius: 0.5rem;
+}
+
+.twitter {
+  max-height: 21rem;
+  overflow: auto;
+  margin-bottom: 1rem;
+}
+
+.twitter-follow {
+  margin-top: 2rem !important;
+  text-align: center;
+  width: 100%;
+}
+
+/* FOOTER */
+
+.footer-border {
+  border-top: 3px solid var(--orange-colors);
+}
+
+footer {
+  border-top: var(--border-colors);
+  width: 100%;
+  padding: 3.3rem;
+}
+
+footer div div div h6 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+footer div div div p {
+  margin-top: 0px;
+}
+
+footer div {
+  margin-bottom: 0.5rem;
+}
+
+footer div:last-child {
+  padding-top: 1.5rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-content div {
+  flex-basis: 18rem;
+}
+
+.footer-content div h6 {
+  color: black;
+  font-weight: 600;
+  letter-spacing: 0.01rem;
+}
+
+.footer-content div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.footer-socialmedia-list {
+  display: flex;
+}
+
+.footer-socialmedia-list li {
+  margin-left: 1rem;
+}
+
+.footer-socialmedia-list li a svg {
+  height: 3rem;
+  color: #c665db;
+}
+
+.footer-socialmedia-list li a svg:hover {
+  color: var(--orange-colors);
+}
+
+/* movil styles*/
+
+@media (max-width: 60rem) {
+  body {
+    padding-top: 3rem;
+  }
+
+  nav div ul li {
+    border-top: 1px solid rgb(200, 200, 200);
+  }
+  .container {
+    width: 100%;
+    flex-flow: column wrap;
+  }
+  section,
+  aside {
+    width: 100%;
+  }
+
+  aside {
+    margin-top: 0;
+  }
+
+  .present-aside {
+    padding: var(--padding-basic);
+    display: flex;
+  }
+
+  .present-aside article:nth-child(odd) {
+    margin-right: 1rem;
+  }
+
+  .aside-newsletter,
+  .twitter-container {
+    flex: 1 1 100%;
+  }
+
+  .twitter {
+    max-height: 10rem;
+  }
+
+  nav {
+    padding: 0px;
+  }
+
+  .navbar {
+    padding-left: 1rem;
+  }
+
+  .footer-socialmedia-list{
+    margin-top: 1.8rem;
+  }
+}
+
+@media (max-width: 30rem) {
+  .present-aside {
+    flex-direction: column;
+  }
+
+  .present-aside article:nth-child(odd) {
+    margin-right: 0;
+  }
+}
+
+/* FOOTER movil styles */
+@media (max-width: 40rem) {
+  button {
+    font-size: 0.8rem !important;
+  }
+
+  footer {
+    padding: var(--padding-basic);
+  }
+  .footer-content {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .footer-content div {
+    flex-basis: 1rem;
+  }
+}
+
+/* contact section */
+.form-container {
+  margin-top: 3rem;
+  max-width: 600px;
+  width: 80%;
+  min-width: 350px;
+  background-color: rgba(220, 220, 220, 0);
+  padding: 1rem;
+  border-radius: 1rem;
+  font-family: var(--spartan);
+  text-align: center;
+}
+
+.form-container p {
+  max-width: 36ch;
+  text-align: center;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.form-container form div input,
+.form-container form div textarea {
+  border: none;
+  border-bottom: 3px solid var(--orange-colors);
+  padding: 0;
+  padding-top: 0.7rem;
+  color: black;
+  font-weight: 600;
+  height: 3rem;
+  border-radius: 0;
+}
+
+.form-container form button {
+  margin-top: 3rem;
+  height: 3rem;
+  font-weight: 500;
+}
+
+.form-container form {
+  margin-top: 2rem;
+}
+
+#contact-sent {
+  display: none;
+}
+
+/* register forms */
+
+.register-form-wrap {
+  width: 100%;
+  max-width: 850px;
+  margin: auto;
+  padding: 1.5rem;
+  font-family: var(--spartan);
+}
+
+.register-form-h5 {
+  color: var(--orange-colors);
+  margin-bottom: 3rem;
+  border-bottom: 3px solid var(--orange-colors);
+}
+
+.register-form-strong {
+  font-weight: 600;
+}
+
+.register-form div div input,
+.register-form div div select {
+  /* color: rgba(0, 0, 0, 0.25); */
+  font-weight: 600;
+  height: 3rem;
+}
+
+.register-form div div input::placeholder {
+  opacity: 0.4;
+}
+
+.register-form button {
+  background-color: var(--orange-colors);
+  margin-top: 2rem;
+  min-height: 3rem;
+}
+
+.register-form button:hover {
+  background-color: var(--pink-colors);
+}
+
+.form-download {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.form-download-list li {
+  display: inline-block;
+  margin-right: 1.2rem;
+}
+
+.form-download-list li a i {
+  margin-right: 0.2rem;
+}
+
+/* services section */
+
+.services-grid {
+  padding: 0 var(--padding-basic);
+  margin: 2.3rem auto 0 auto;
+  max-width: 1200px;
+  height: 85vh;
+  display: grid;
+  grid-gap: 1rem;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "space ssanta ssanta"
+    "space charlas talleres"
+    "space webinars talleres"
+    "aspsico aspsico talleres";
+}
+
+.services-grid > div {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.services-grid div h5 {
+  margin: 0;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: 0.01rem;
+}
+
+.services-grid div:first-of-type {
+  grid-area: space;
+  background-image: url(images/services/space_vertical_xl.jpg);
+}
+
+.services-grid div:nth-child(2) {
+  grid-area: ssanta;
+  background-image: url(images/services/ssanta_olimpic_gods_xl.jpg);
+}
+
+.services-grid div:nth-child(3) {
+  grid-area: talleres;
+  background-image: url(images/services/taller_vertical.jpg);
+}
+
+.services-grid div:nth-child(4) {
+  grid-area: charlas;
+  background-image: url(images/services/speaking.jpg);
+}
+
+.services-grid div:nth-child(5) {
+  grid-area: webinars;
+  background-image: url(images/services/webinar.jpg);
+}
+
+.services-grid div:last-of-type {
+  grid-area: aspsico;
+  background-image: url(images/services/aspsico_xl.jpg);
+}
+
+@media (max-width: 48rem) {
+  .services-grid {
+    padding: 0;
+  }
+
+  .services-grid div h5 {
+    font-size: 1.4rem;
+  }
+  .services-grid {
+    height: 90vh;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "space space"
+      "ssanta talleres"
+      "ssanta charlas"
+      "webinars charlas"
+      "aspsico aspsico";
+  }
+  .services-grid div:first-of-type {
+    background-image: url(images/services/space_horizontal_xl.jpg);
+  }
+  .services-grid div:nth-child(3) {
+    background-image: url(images/services/taller_horizontal.jpg);
+  }
+}
+
+@media (max-width: 24rem) {
+  .services-grid div h5 {
+    font-size: 1.1rem;
+  }
+  .services-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "space"
+      "ssanta"
+      "talleres"
+      "charlas"
+      "webinars"
+      "aspsico";
+  }
+}
+
+/* space logo position */
+
+/* services section modal styles */
+
+.modal-dialog {
+  max-width: 800px !important;
+}
+
+.services-modal-bg-space,
+.services-modal-bg-ssanta {
+  background-size: cover;
+  background-position: center;
+}
+
+.services-modal-bg-space {
+  background-image: url(images/services/space_horizontal_xl.jpg);
+}
+
+.services-modal-bg-ssanta {
+  background-image: url(images/services/space_ssanta_background.jpg);
+}
+.services-modal-bg-charlas {
+  background: rgb(32, 125, 119);
+  background: linear-gradient(
+    210deg,
+    rgba(32, 125, 119, 1) 0%,
+    rgba(19, 74, 70, 1) 100%
+  );
+}
+
+.services-modal-bg-talleres {
+  background: rgb(199, 50, 37);
+  background: linear-gradient(
+    210deg,
+    rgba(199, 50, 37, 1) 0%,
+    rgba(122, 32, 23, 1) 91%
+  );
+}
+
+.services-modal-bg-webinars {
+  background: rgb(250, 186, 47);
+  background: linear-gradient(
+    210deg,
+    rgba(250, 186, 47, 1) 0%,
+    rgba(199, 148, 38, 1) 91%
+  );
+}
+
+.services-modal-bg-aspsico {
+  background: rgb(191, 43, 224);
+  background: linear-gradient(
+    210deg,
+    rgba(191, 43, 224, 1) 0%,
+    rgba(83, 18, 97, 1) 91%
+  );
+}
+
+.services-modal-bg-body {
+  background-color: rgba(255, 255, 255, 0.65);
+}
+
+.services-modal-title {
+  color: white;
+  font-size: 2.45rem;
+  margin: 0rem;
+}
+
+.services-activities-h6 {
+  color: rgba(13, 27, 52, 0.8);
+  font-size: 1.1em;
+  font-weight: 500;
+  margin: 0;
+}
+
+.services-activities-list li ul li:first-of-type {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.services-modal-img{
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.services-modal-video {
+  width: 100%;
+  height: 53vw;
+  max-height: 430px;
+  border-radius: 1rem;
+}
+
+.services-modal-bg-body p {
+  margin: 0;
+}
+
+/* current blog-news styles (Actualidad) */
+.blog-card-date {
+  color: gray;
+font-size: 0.75rem;
+font-style: italic;
+}
+
+.blog-card-h5 {
+margin: 0;
+margin-top: 0.5rem;
+font-size: 1.3rem;
+}
+
+.blog-card-text {
+font-size: 0.9rem;
+margin-top: 0.3rem;
+}
+
+.card-columns{/* bootstrap style */
+  column-count: 3;
+}
+
+@media (max-width: 80rem) {/* bootstrap style */
+  .card-columns{
+    column-count: 2;
+  }
+}
+
+@media (max-width: 60rem) {/* bootstrap style */
+  .card-columns{
+    column-count: 3;
+  }
+}
+
+@media (max-width: 50rem) {/* bootstrap style */
+  .card-columns{
+    column-count: 2;
+  }
+}
+
+@media (max-width: 30rem) {/* bootstrap style */
+  .card-columns{
+    column-count: 1;
+  }
+  .index-img{
+    display: none;/* image blog-news it's too much little in movile version. The section is better without image */
+  }
+}
+
+/* blog-news pagination */
+.present-pagination {
+  font-size: 0.75rem;
+  font-weight: 500;
+  width: 100%;
+  margin-top: 3rem;
+  display: flex; 
+  justify-content: center;
+}
+
+.present-pagination ul li a {
+  color: black;
+}
+
+.present-pagination ul li a:hover {
+  color: #c665db;
+}
+
+.present-pagination-link-selected {
+  background-color: #c665db;
+  color: white;
+}
+
+.blog-news-pagination{
+  margin: 0;
+}
+
+/* blog-news element style */
+
+.web-mark{
+  font-family: var(--spartan);
+  font-size: 0.85em;
+}
